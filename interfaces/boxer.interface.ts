@@ -1,5 +1,5 @@
 export interface Boxer {
-  id: Number,
+  id: Number | String,
   name: String,
   totalMatches: Number,
   wins: Number,

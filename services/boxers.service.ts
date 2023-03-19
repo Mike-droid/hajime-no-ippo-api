@@ -1,8 +1,7 @@
 import { Boxer as BI } from '../interfaces/boxer.interface';
 import { arrayBoxers } from "../dummyData/arrayBoxers";
-import { models } from "../libs/sequelize";
-//import { Boxer as BM } from '../db/models/boxer.model';
-import { Identifier } from 'sequelize';
+//import { models } from "../libs/sequelize";
+//import { Identifier } from 'sequelize';
 
 class BoxerService {
   boxers: BI[] = [];
@@ -15,8 +14,8 @@ class BoxerService {
     return this.boxers;
   }
 
-  async findBoxerById(id: Identifier | undefined) {
-    const boxer = await models.model('Boxer').findByPk(id)
+  async findBoxerById(id: string) {
+    const boxer = this.boxers.find(boxer => boxer.id === id);
     return boxer;
   }
 }
