@@ -13,4 +13,17 @@ router.get('/', async (req: Request, res: Response) => {
   }
 });
 
+router.get('/:id', async (req: Request, res: Response) => {
+  try {
+    const { id } = req.params;
+    const boxer = await service.findBoxerById(id);
+    res.json(boxer)
+  } catch (error) {
+    return {
+      status: 404,
+      message: error
+    }
+  }
+});
+
 export default router;
