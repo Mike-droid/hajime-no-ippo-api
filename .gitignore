@@ -252,3 +252,4 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/node,windows,linux,macos,visualstudiocode,git
 
 build
+postgres_data
