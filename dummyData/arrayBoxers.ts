@@ -11,7 +11,7 @@ export const arrayBoxers: Boxer[] = [
     draws: 0,
     country: "Japan",
     weightClass: "Featherweight",
-    image: 'https://static.wikia.nocookie.net/ippo/images/0/06/IppoAnime.png/revision/latest?cb=20180510230814'
+    image: 'https://static.wikia.nocookie.net/espiritudelucha/images/2/26/Ippo_-_Imagen_para_Infobox.png/revision/latest?cb=20160717003055&path-prefix=es'
   },
   {
     id: '2',
@@ -23,7 +23,7 @@ export const arrayBoxers: Boxer[] = [
     draws: 0,
     country: 'Japan',
     weightClass: 'Supper middleweight',
-    image: 'https://static.wikia.nocookie.net/ippo/images/b/b0/TakamuraAnime.png/revision/latest?cb=20180515221015'
+    image: 'https://static.wikia.nocookie.net/espiritudelucha/images/4/45/Takamura_-_Imagen_para_Infobox.png/revision/latest?cb=20160717005938&path-prefix=es'
   },
   {
     id: '3',
@@ -35,7 +35,7 @@ export const arrayBoxers: Boxer[] = [
     draws: 1,
     country: 'Japan',
     weightClass: 'Featherweight',
-    image: 'https://static.wikia.nocookie.net/ippo/images/4/4a/MiyataAnime.png/revision/latest?cb=20190401151412'
+    image: 'https://static.wikia.nocookie.net/espiritudelucha/images/4/4c/Miyata_-_Imagen_para_Infobox.png/revision/latest?cb=20160717031900&path-prefix=es'
   },
   {
     id: '4',
@@ -47,7 +47,7 @@ export const arrayBoxers: Boxer[] = [
     draws: 0,
     country: 'Russia',
     weightClass: 'Super featherweight',
-    image: 'https://static.wikia.nocookie.net/ippo/images/8/8e/Alexander_Volg_Zangief.png/revision/latest?cb=20200323175425'
+    image: 'https://static.wikia.nocookie.net/espiritudelucha/images/a/a0/Volg_-_Imagen_para_Infobox.png/revision/latest?cb=20160717030417&path-prefix=es'
   },
   {
     id: '5',
@@ -59,7 +59,7 @@ export const arrayBoxers: Boxer[] = [
     draws: 0,
     country: 'Japan',
     weightClass: 'Featherweight',
-    image: 'https://web.archive.org/web/20221010084441if_/https://static.wikia.nocookie.net/ippo/images/e/ea/Send%C5%8D_Takeshi.png/revision/latest?cb=20200314225727'
+    image: 'https://static.wikia.nocookie.net/espiritudelucha/images/6/6b/Sendo_-_Imagen_para_Infobox.png/revision/latest?cb=20160718034156&path-prefix=es'
   },
   {
     id: '6',
@@ -69,8 +69,128 @@ export const arrayBoxers: Boxer[] = [
     winsByKO: 66,
     losses: 0,
     draws: 0,
+    country: 'Mexico',
+    weightClass: 'Featherweight',
+    image: 'http://pm1.narvii.com/6549/133dd3f8f17e98809dd9fd9c28dfe883c9a419aa_00.jpg'
+  },
+  {
+    id: '7',
+    name: 'Ryō Mashiba',
+    totalMatches: 23,
+    wins: 21,
+    winsByKO: 17,
+    losses: 2,
+    draws: 0,
+    country: 'Japan',
+    weightClass: 'Ligthweight',
+    image: 'https://static.wikia.nocookie.net/espiritudelucha/images/d/de/Mashiba_-_Imagen_para_Infobox.png/revision/latest?cb=20160718040446&path-prefix=es'
+  },
+  {
+    id: '8',
+    name: 'Masaru Aoki',
+    totalMatches: 29,
+    wins: 19,
+    winsByKO: 12,
+    losses: 7,
+    draws: 3,
+    country: 'Japan',
+    weightClass: 'Ligthweight',
+    image: 'https://static.wikia.nocookie.net/espiritudelucha/images/c/c8/Aoki_-_Imagen_para_Infobox.png/revision/latest?cb=20160717010659&path-prefix=es'
+  },
+  {
+    id: '9',
+    name: 'Tatsuya Kimura',
+    totalMatches: 28,
+    wins: 17,
+    winsByKO: 12,
+    losses: 6,
+    draws: 5,
+    country: 'Japan',
+    weightClass: 'Super featherweight',
+    image: 'https://static.wikia.nocookie.net/espiritudelucha/images/1/19/Kimura_-_Imagen_para_Infobox.png/revision/latest?cb=20160717011211&path-prefix=es'
+  },
+  {
+    id: '10',
+    name: 'Genji Kamogawa',
+    totalMatches: 9,
+    wins: 6,
+    winsByKO: 6,
+    losses: 2,
+    draws: 1,
+    country: 'Japan',
+    weightClass: 'Bantamweight',
+    image: 'https://pm1.narvii.com/7178/e3726a342bab79770b4d8e8e705ccef129aa8fc1r1-225-350v2_uhq.jpg'
+  },
+  {
+    id: '11',
+    name: 'Ginpachi Nekota',
+    totalMatches: 10,
+    wins: 6,
+    winsByKO: 6,
+    losses: 3,
+    draws: 1,
+    country: 'Japan',
+    weightClass: 'Bantamweight',
+    image: 'https://cdn-us.anidb.net/images/main/171586.jpg'
+  },
+  {
+    id: '12',
+    name: 'Manabu Itagaki',
+    totalMatches: 18,
+    wins: 16,
+    winsByKO: 10,
+    losses: 2,
+    draws: 0,
     country: 'Japan',
     weightClass: 'Featherweight',
-    image: 'https://static.wikia.nocookie.net/ippo/images/2/2b/Ricardo_Martinez.png/revision/latest/scale-to-width-down/350?cb=20181018205714'
+    image: 'https://static.wikia.nocookie.net/espiritudelucha/images/3/36/Itagaki_-_Imagen_para_Infobox.png/revision/latest?cb=20160718035859&path-prefix=es'
+  },
+  {
+    id: '13',
+    name: 'Bryan Hawk',
+    totalMatches: 21,
+    wins: 20,
+    winsByKO: 17,
+    losses: 1,
+    draws: 0,
+    country: 'USA',
+    weightClass: 'Super welterweight',
+    image: 'https://static.wikia.nocookie.net/espiritudelucha/images/c/c9/Hawk_-_Imagen_para_Infobox.png/revision/latest?cb=20160717034954&path-prefix=es'
+  },
+  {
+    id: '14',
+    name: 'David Eagle',
+    totalMatches: 18,
+    wins: 17,
+    winsByKO: 14,
+    losses: 1,
+    draws: 0,
+    country: 'USA',
+    weightClass: 'Middleweight',
+    image: 'https://static.wikia.nocookie.net/ippo/images/8/81/David_Eagle_PS3.png/revision/latest/scale-to-width-down/346?cb=20180316020714'
+  },
+  {
+    id: '15',
+    name: 'Eiji Date',
+    totalMatches: 23,
+    wins: 21,
+    winsByKO: 17,
+    losses: 2,
+    draws: 0,
+    country: 'Japan',
+    weightClass: 'Featherweight',
+    image: 'https://static.wikia.nocookie.net/ippo/images/a/ab/Date_-_PS3_-_Long-haired.png/revision/latest?cb=20190330023514'
+  },
+  {
+    id: '16',
+    name: 'Ryūhei Sawamura',
+    totalMatches: 14,
+    wins: 11,
+    winsByKO: 5,
+    losses: 3,
+    draws: 0,
+    country: 'Japan',
+    weightClass: 'Featherweight',
+    image: 'https://static.wikia.nocookie.net/ippo/images/a/a0/Sawamura_-_PS3_-_01.png/revision/latest?cb=20150904123552'
   }
 ];

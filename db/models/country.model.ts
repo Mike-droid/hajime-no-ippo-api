@@ -1,16 +1,17 @@
-import { Model, DataTypes, Sequelize, ModelCtor } from "sequelize";
+//import { Model, DataTypes, Sequelize, ModelCtor } from "sequelize";
+import { Table, Column, Model, HasMany, DataType, ModelCtor, Sequelize } from 'sequelize-typescript'
 
 const COUNTRY_TABLE = 'countries';
 
 const countrySchema = {
   id: {
-    type: DataTypes.INTEGER,
+    type: DataType.INTEGER,
     primaryKey: true,
     autoIncrement: true,
     allowNull: false,
   },
   name: {
-    type: DataTypes.STRING,
+    type: DataType.STRING,
     allowNull: false,
     unique: true,
   },
