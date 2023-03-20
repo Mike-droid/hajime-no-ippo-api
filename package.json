@@ -1,7 +1,7 @@
 {
   "name": "hajime-no-ippo-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Hajime No Ippo API",
   "main": "index.js",
   "scripts": {
     "start:dev": "npx nodemon",
