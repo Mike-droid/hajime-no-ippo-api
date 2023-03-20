@@ -23,7 +23,7 @@ export const arrayBoxers: Boxer[] = [
     draws: 0,
     country: 'Japan',
     weightClass: 'Supper middleweight',
-    image: 'https://static.wikia.nocookie.net/espiritudelucha/images/4/45/Takamura_-_Imagen_para_Infobox.png/revision/latest?cb=20160717005938&path-prefix=es'
+    image: 'https://static.wikia.nocookie.net/espiritudelucha/images/4/45/Takamura_-_Imagen_para_Infobox.png/revision/latest/scale-to-width-down/335?cb=20160717005938&path-prefix=es'
   },
   {
     id: '3',
@@ -35,7 +35,7 @@ export const arrayBoxers: Boxer[] = [
     draws: 1,
     country: 'Japan',
     weightClass: 'Featherweight',
-    image: 'https://static.wikia.nocookie.net/espiritudelucha/images/4/4c/Miyata_-_Imagen_para_Infobox.png/revision/latest?cb=20160717031900&path-prefix=es'
+    image: 'https://static.wikia.nocookie.net/espiritudelucha/images/4/4c/Miyata_-_Imagen_para_Infobox.png/revision/latest/scale-to-width-down/335?cb=20160717031900&path-prefix=es'
   },
   {
     id: '4',
@@ -47,7 +47,7 @@ export const arrayBoxers: Boxer[] = [
     draws: 0,
     country: 'Russia',
     weightClass: 'Super featherweight',
-    image: 'https://static.wikia.nocookie.net/espiritudelucha/images/a/a0/Volg_-_Imagen_para_Infobox.png/revision/latest?cb=20160717030417&path-prefix=es'
+    image: 'https://static.wikia.nocookie.net/espiritudelucha/images/a/a0/Volg_-_Imagen_para_Infobox.png/revision/latest/scale-to-width-down/335?cb=20160717030417&path-prefix=es'
   },
   {
     id: '5',
@@ -83,7 +83,7 @@ export const arrayBoxers: Boxer[] = [
     draws: 0,
     country: 'Japan',
     weightClass: 'Ligthweight',
-    image: 'https://static.wikia.nocookie.net/espiritudelucha/images/d/de/Mashiba_-_Imagen_para_Infobox.png/revision/latest?cb=20160718040446&path-prefix=es'
+    image: 'https://static.wikia.nocookie.net/espiritudelucha/images/d/de/Mashiba_-_Imagen_para_Infobox.png/revision/latest/scale-to-width-down/335?cb=20160718040446&path-prefix=es'
   },
   {
     id: '8',
