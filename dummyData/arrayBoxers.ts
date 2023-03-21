@@ -3,7 +3,7 @@ import { Boxer } from '../interfaces/boxer.interface';
 export const arrayBoxers: Boxer[] = [
   {
     id: '1',
-    name: 'Ippo Makanouchi',
+    name: 'Ippo Makunouchi',
     totalMatches: 26,
     wins: 23,
     winsByKO: 23,
