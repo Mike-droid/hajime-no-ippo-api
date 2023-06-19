@@ -85,7 +85,6 @@ The API will respond with the details of the boxer with ID '3':
     "losses": 0,
     "draws": 0
   }
-  ...
 }
 ```
 
